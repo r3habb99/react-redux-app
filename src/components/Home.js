@@ -6,11 +6,11 @@ function Home() {
       <div className="add-to-cart">
         <img
           src="https://static.vecteezy.com/system/resources/thumbnails/000/496/007/small/Ecommerce_998.jpg"
-          alt="cart
-        "
+          alt="cart"
         />
       </div>
       <h1>Home Component</h1>
+
       <div className="cart-wrapper">
         <div className="img-wrapper item">
           <img
@@ -18,10 +18,12 @@ function Home() {
             alt="phone"
           />
         </div>
+
         <div className="text-wrapper item">
           <span>I-Phone</span>
           <span>Price : $100.00</span>
         </div>
+
         <div className="btn-wrapper item">
           <button>Add To Cart</button>
         </div>
